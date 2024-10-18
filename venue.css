@@ -1,0 +1,183 @@
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0; /* Remove default margin from all elements */
+    padding: 0; /* Remove default padding from all elements */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styles for the body element */
+body {
+    font-family: sans-serif; /* Use sans-serif font for the entire page */
+    background-color: #293f50; /* Set background color to a dark blue shade */
+    color: #fff; /* Set text color to white */
+}
+
+/* Styles for the header */
+header {
+    width: 60%; /* Set header width to 60% of the viewport width */
+    margin: 0 auto; /* Center header horizontally */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between header elements */
+    align-items: center; /* Align items vertically in the center */
+    padding: 2.5rem 0; /* Add padding to top and bottom */
+    position: relative; /* Position relative for positioning child elements */
+}
+
+/* Styles for the heading in the header */
+header .heading {
+    font-size: 3rem; /* Set font size for the heading */
+    text-transform: uppercase; /* Transform text to uppercase */
+    color: #fff; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+    line-height: 0.9; /* Adjust line height */
+}
+
+/* Styles for the div inside the header */
+header div {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center children vertically */
+    align-items: end; /* Align children to the end of the container */
+}
+
+/* Styles for the h3 element inside the header navigation */
+header nav h3 {
+    line-height: 1.4; /* Adjust line height */
+    color: #648880; /* Set text color */
+    padding-bottom: 1.7rem; /* Add padding to the bottom */
+}
+
+/* Styles for the navigation list inside the header */
+header nav ul {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    list-style-type: none; /* Remove default list styling */
+    position: absolute; /* Position absolutely relative to the header */
+    bottom: 2.6rem; /* Position 2.6rem from the bottom */
+    right: 0; /* Align to the right */
+}
+
+/* Styles for links in the navigation list */
+header ul li a {
+    text-decoration: none; /* Remove underline from links */
+    padding-left: 1rem; /* Add padding to the left */
+    line-height: 1.6; /* Adjust line height */
+    letter-spacing: .5px; /* Add letter spacing */
+    color: #fff; /* Set text color to white */
+    text-transform: uppercase; /* Transform text to uppercase */
+    font-size: 0.9rem; /* Set font size */
+}
+
+/* Styles for hover effect on links */
+a:hover {
+    color: #648880; /* Change text color on hover */
+}
+
+/* Styles for the first section in the main content */
+main .section-1 {
+    background-color: #d0e4c2; /* Set background color */
+    color: #648880; /* Set text color */
+}
+
+/* Styles for the container inside the first section */
+main .section-1 .set-width {
+    width: 60%; /* Set container width to 60% of the viewport width */
+    margin: 0 auto; /* Center container horizontally */
+    text-align: center; /* Center text alignment */
+    line-height: 1.8; /* Adjust line height */
+    padding: 2.2rem; /* Add padding */
+}
+
+/* Styles for h2 elements in the first section */
+.section-1 h2 {
+    font-size: 2.2rem; /* Set font size */
+    color: #648880; /* Set text color */
+    font-weight: lighter; /* Set font weight to lighter */
+}
+
+/* Styles for paragraphs in the first section */
+.section-1 p {
+    font-size: 1.26rem; /* Set font size */
+    font-weight: inherit; /* Inherit font weight from parent */
+    line-height: 1.6; /* Adjust line height */
+}
+
+/* Styles for the second section in the main content */
+main .section-2 {
+    background-color: #fff; /* Set background color to white */
+    color: #648880; /* Set text color */
+}
+
+/* Styles for the container inside the second section */
+.section-2 .set-width {
+    width: 60%; /* Set container width to 60% of the viewport width */
+    margin: 0 auto; /* Center container horizontally */
+    line-height: 1.8; /* Adjust line height */
+    padding: 0.2rem 0; /* Add padding to top and bottom */
+}
+
+/* Styles for the section element inside the second section */
+.section-2 .set-width section {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 2fr; /* Define two columns with 1:2 ratio */
+    grid-gap: 2rem; /* Add gap between grid items */
+    margin: 4rem 0; /* Add top and bottom margin */
+}
+
+/* Styles for a, p, and h2 elements inside section elements in the second section */
+.section-2 .set-width section a,
+.section-2 .set-width section p,
+.section-2 .set-width section h2 {
+    text-decoration: none; /* Remove underline from links */
+    color: #648880; /* Set text color */
+    font-weight: lighter; /* Set font weight to lighter */
+    line-height: 1.4; /* Adjust line height */
+    margin-bottom: 15px; /* Add bottom margin */
+}
+
+/* Styles for hover effect on links inside section elements in the second section */
+.section-2 .set-width section a:hover {
+    color: #a9b2b9; /* Change text color on hover */
+    border-bottom: 1px solid #cbd4da; /* Add underline on hover */
+}
+
+/* Styles for iframe elements */
+iframe {
+    width: 100%; /* Set width to 100% of the container */
+    height: 280px; /* Set fixed height */
+    border: none; /* Remove border */
+}
+
+/* Styles for the footer */
+footer {
+    width: 60%; /* Set footer width to 60% of the viewport width */
+    margin: 0 auto; /* Center footer horizontally */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between footer elements */
+    align-items: center; /* Align items vertically in the center */
+    padding: 2.5rem 0; /* Add padding to top and bottom */
+}
+
+/* Styles for the copyright text in the footer */
+footer p {
+    color: #648880; /* Set text color */
+    font-size: 0.9rem; /* Set font size */
+}
+
+/* Styles for the footer navigation list */
+footer ul {
+    display: flex; /* Use flexbox layout */
+    list-style-type: none; /* Remove default list styling */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    font-size: 0.9rem; /* Set font size */
+}
+
+/* Styles for links in the footer navigation list */
+footer ul a {
+    text-decoration: none; /* Remove underline from links */
+    color: #cbd4da; /* Set text color */
+    padding-left: 1rem; /* Add padding to the left */
+    font-weight: lighter; /* Set font weight to lighter */
+}

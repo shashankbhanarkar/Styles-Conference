@@ -1,0 +1,210 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styles for the body element */
+body {
+    font-family: sans-serif; /* Use sans-serif font for the entire page */
+    background-color: #293f50; /* Set background color to a dark blue shade */
+    color: #fff; /* Set text color to white */
+}
+
+/* Styles for the header */
+header {
+    width: 60%; /* Set header width to 60% of the viewport width */
+    margin: 0 auto; /* Center header horizontally */
+    font-family: "Poppins", sans-serif; /* Use Poppins font for the header */
+    letter-spacing: 1px; /* Add letter spacing */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between header elements */
+    align-items: center; /* Align items vertically in the center */
+    padding: 2.5rem 0; /* Add padding to top and bottom */
+    position: relative; /* Position relative for positioning child elements */
+}
+
+/* Styles for the heading in the header */
+header .heading {
+    font-size: 3rem; /* Set font size for the heading */
+    text-transform: uppercase; /* Transform text to uppercase */
+    color: #a9b2b9; /* Set text color */
+    text-decoration: none; /* Remove underline from links */
+    line-height: 0.9; /* Adjust line height */
+}
+
+/* Styles for the div inside the header */
+header div {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center children vertically */
+    align-items: end; /* Align children to the end of the container */
+}
+
+/* Styles for the h3 element inside the header navigation */
+header nav h3 {
+    line-height: 1.4; /* Adjust line height */
+    color: #648880; /* Set text color */
+    padding-bottom: 1.7rem; /* Add padding to the bottom */
+}
+
+/* Styles for the navigation list inside the header */
+header nav ul {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    list-style-type: none; /* Remove default list styling */
+    position: absolute; /* Position absolutely relative to the header */
+    bottom: 2.6rem; /* Position 2.6rem from the bottom */
+    right: 0; /* Align to the right */
+}
+
+/* Styles for links in the navigation list */
+header ul li a {
+    text-decoration: none; /* Remove underline from links */
+    padding-left: 1rem; /* Add padding to the left */
+    line-height: 1.6; /* Adjust line height */
+    letter-spacing: 1px; /* Add letter spacing */
+    color: #fff; /* Set text color to white */
+    font-weight: bold; /* Set font weight to bold */
+    text-transform: uppercase; /* Transform text to uppercase */
+    font-size: 0.9rem; /* Set font size */
+}
+
+/* Styles for hover effect on links */
+a:hover {
+    color: #648880; /* Change text color on hover */
+}
+
+/* Styles for the first section in the main content */
+main .section-1 {
+    width: 60%; /* Set section width to 60% of the viewport width */
+    margin: 0 auto; /* Center section horizontally */
+    font-family: "Poppins", sans-serif; /* Use Poppins font for the section */
+    text-align: center; /* Center text alignment */
+    line-height: 1.8; /* Adjust line height */
+    padding-bottom: 5rem; /* Add padding to the bottom */
+}
+
+/* Styles for the h2 element in the first section */
+.section-1 h2 {
+    font-size: 2.2rem; /* Set font size */
+    color: #648880; /* Set text color */
+    font-weight: lighter; /* Set font weight to lighter */
+}
+
+/* Styles for paragraphs in the first section */
+.section-1 p {
+    font-size: 1.5rem; /* Set font size */
+    font-weight: inherit; /* Inherit font weight from parent */
+    margin-bottom: 2.5rem; /* Add bottom margin */
+}
+
+/* Styles for links in the first section */
+.section-1 a {
+    font-weight: bold; /* Set font weight to bold */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set text color to white */
+    border: 1.5px solid #fff; /* Add border with color */
+    padding: 1.4rem 2rem; /* Add padding */
+    line-height: 1.4; /* Adjust line height */
+    margin: 0; /* Remove margin */
+    letter-spacing: 1.5px; /* Add letter spacing */
+    text-transform: uppercase; /* Transform text to uppercase */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styles for hover effect on links in the first section */
+.section-1 a:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #000; /* Change text color on hover */
+}
+
+/* Styles for the second section in the main content */
+main .section-2 {
+    background-color: #fff; /* Set background color to white */
+    color: #a9b2b9; /* Set text color */
+    padding: 4.2rem 0; /* Add padding to top and bottom */
+}
+
+/* Styles for the container in the second section */
+main .section-2 .set-width {
+    width: 60%; /* Set container width to 60% of the viewport width */
+    margin: 0 auto; /* Center container horizontally */
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Define three equal columns */
+    grid-gap: 33px; /* Add gap between grid items */
+}
+
+/* Styles for h5 elements in the theatre section */
+main .section-2 .theatre h5 {
+    font-weight: lighter; /* Set font weight to lighter */
+    letter-spacing: .5px; /* Add letter spacing */
+    text-transform: uppercase; /* Transform text to uppercase */
+    margin-bottom: 1.5rem; /* Add bottom margin */
+}
+
+/* Styles for links in the theatre section */
+main .section-2 .theatre a {
+    text-decoration: none; /* Remove underline from links */
+    color: #648880; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styles for hover effect on links in the theatre section */
+main .section-2 .theatre a:hover {
+    color: #a9b2b9; /* Change text color on hover */
+}
+
+/* Styles for images in the theatre section */
+main .section-2 .theatre img {
+    display: block; /* Ensure images are block-level elements */
+    max-width: 100%; /* Set max-width to 100% of the container */
+    height: 189px; /* Set fixed height */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+/* Styles for h3 elements in the theatre section */
+.section-2 .theatre h3 {
+    margin: 1.2rem 0; /* Add top and bottom margin */
+    font-weight: lighter; /* Set font weight to lighter */
+    letter-spacing: .5px; /* Add letter spacing */
+}
+
+/* Styles for the footer */
+footer {
+    width: 60%; /* Set footer width to 60% of the viewport width */
+    margin: 0 auto; /* Center footer horizontally */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between footer elements */
+    align-items: center; /* Align items vertically in the center */
+    padding: 2.5rem 0; /* Add padding to top and bottom */
+}
+
+/* Styles for the copyright text in the footer */
+footer p {
+    color: #648880; /* Set text color */
+    font-size: 0.9rem; /* Set font size */
+}
+
+/* Styles for the footer navigation list */
+footer ul {
+    display: flex; /* Use flexbox layout */
+    list-style-type: none; /* Remove default list styling */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    font-size: 0.9rem; /* Set font size */
+}
+
+/* Styles for links in the footer navigation list */
+footer ul a {
+    text-decoration: none; /* Remove underline from links */
+    color: #cbd4da; /* Set text color */
+    padding-left: 1rem; /* Add padding to the left */
+    font-weight: lighter; /* Set font weight to lighter */
+}
